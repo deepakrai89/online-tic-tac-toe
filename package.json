@@ -1,0 +1,19 @@
+{
+  "name": "roundcross",
+  "version": "0.0.1",
+  "description": "Online Tic-Tac-Toe",
+  "main": "app/server.js",
+  "dependencies": {
+    "socket.io": "^0.9.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Online",
+    "Tic-Tac-Toe"
+  ],
+  "author": "Deepak Rai",
+  "license": "ISC"
+}
