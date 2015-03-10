@@ -52,8 +52,9 @@ var server = http.createServer(function(request, response) {
 //server.listen(server_port, server_ip_address, function() {
 //    console.log('Server running at ' + server_ip_address + ':' + server_port);
 //});
-server.listen(process.env.PORT || 3000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, server.settings.env);
+
+server.listen(process.env.PORT || 5000, function(){
+  //console.log("Express server listening on port %d in %s mode", this.address().port, server.settings.env);
 });
 
 // stores online users count
