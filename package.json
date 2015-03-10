@@ -6,6 +6,9 @@
   "dependencies": {
     "socket.io": "^0.9.16"
   },
+  "engines": {
+    "node": "0.10.x"
+  }
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
